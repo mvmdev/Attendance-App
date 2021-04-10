@@ -129,11 +129,6 @@ public class Login extends AppCompatActivity {
                                     if(snapshot.getValue(DeviceID.class).getdID().equals(currdID)){
                                         lgpg.setVisibility(View.GONE);
                                         FirebaseMessaging.getInstance().subscribeToTopic(curruser.branch);
-//                                        FirebaseMessaging.getInstance().subscribeToTopic("ECE");
-//                                        FirebaseMessaging.getInstance().subscribeToTopic("EE");
-//                                        FirebaseMessaging.getInstance().subscribeToTopic("ME");
-//                                        FirebaseMessaging.getInstance().subscribeToTopic("CE");
-//                                        FirebaseMessaging.getInstance().subscribeToTopic("CHEM");
                                         Intent intent = new Intent(Login.this, Home.class);
                                         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                                         startActivity(intent);
