@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgcolorgradient">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/uigridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:background="@android:color/transparent"
+        app:columnCount="2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.474"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rowCount="5">
+
+        <TextView
+            android:id="@+id/uiname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:gravity="fill"
+            android:text="Name"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            tools:layout_conversion_absoluteHeight="40dp"
+            tools:layout_conversion_absoluteWidth="145dp"
+            tools:layout_editor_absoluteX="65dp"
+            tools:layout_editor_absoluteY="374dp" />
+
+        <TextView
+            android:id="@+id/uinameval"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:gravity="fill"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            tools:layout_conversion_absoluteHeight="40dp"
+            tools:layout_conversion_absoluteWidth="115dp"
+            tools:layout_editor_absoluteX="231dp"
+            tools:layout_editor_absoluteY="374dp" />
+
+        <TextView
+            android:id="@+id/uiemail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:gravity="fill"
+            android:text="Email"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            tools:layout_conversion_absoluteHeight="40dp"
+            tools:layout_conversion_absoluteWidth="145dp"
+            tools:layout_editor_absoluteX="65dp"
+            tools:layout_editor_absoluteY="434dp" />
+
+        <TextView
+            android:id="@+id/uiemailval"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:gravity="fill"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            tools:layout_conversion_absoluteHeight="40dp"
+            tools:layout_conversion_absoluteWidth="115dp"
+            tools:layout_editor_absoluteX="231dp"
+            tools:layout_editor_absoluteY="434dp" />
+
+        <TextView
+            android:id="@+id/uischolar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:gravity="fill"
+            android:text="Scholar No"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            tools:layout_conversion_absoluteHeight="40dp"
+            tools:layout_conversion_absoluteWidth="145dp"
+            tools:layout_editor_absoluteX="65dp"
+            tools:layout_editor_absoluteY="494dp" />
+
+        <TextView
+            android:id="@+id/uischolarval"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:gravity="fill"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            tools:layout_conversion_absoluteHeight="40dp"
+            tools:layout_conversion_absoluteWidth="115dp"
+            tools:layout_editor_absoluteX="231dp"
+            tools:layout_editor_absoluteY="494dp" />
+
+        <TextView
+            android:id="@+id/uimobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:gravity="fill"
+            android:text="Mobile No"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            tools:layout_conversion_absoluteHeight="40dp"
+            tools:layout_conversion_absoluteWidth="145dp"
+            tools:layout_editor_absoluteX="65dp"
+            tools:layout_editor_absoluteY="554dp" />
+
+        <TextView
+            android:id="@+id/uimobileval"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:gravity="fill"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            tools:layout_conversion_absoluteHeight="40dp"
+            tools:layout_conversion_absoluteWidth="115dp"
+            tools:layout_editor_absoluteX="231dp"
+            tools:layout_editor_absoluteY="554dp" />
+
+        <TextView
+            android:id="@+id/uibrranch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:gravity="fill"
+            android:text="Branch"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            tools:layout_conversion_absoluteHeight="40dp"
+            tools:layout_conversion_absoluteWidth="145dp"
+            tools:layout_editor_absoluteX="65dp"
+            tools:layout_editor_absoluteY="614dp" />
+
+        <TextView
+            android:id="@+id/uibranchval"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:gravity="fill"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            tools:layout_conversion_absoluteHeight="40dp"
+            tools:layout_conversion_absoluteWidth="115dp"
+            tools:layout_editor_absoluteX="231dp"
+            tools:layout_editor_absoluteY="614dp" />
+
+
+    </androidx.gridlayout.widget.GridLayout>
+
+    <ProgressBar
+        android:id="@+id/uiprogressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="181dp"
+        android:layout_marginTop="61dp"
+        android:layout_marginEnd="182dp"
+        android:layout_marginBottom="192dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uigridLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
